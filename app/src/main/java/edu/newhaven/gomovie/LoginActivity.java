@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(ed1.getText().equals("Admin")&&ed2.getText().equals("Admin")){
-                    Toast.makeText()
+                    Toast.makeText(LoginActivity.this, "Login Successfully!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
